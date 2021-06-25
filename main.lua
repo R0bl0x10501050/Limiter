@@ -1,5 +1,4 @@
 local HTTP = game:GetService("HttpService")
-local RS = game:GetService("RunService")
 
 local Limiter = {}
 Limiter.__index = Limiter
