@@ -34,7 +34,6 @@ Limiter.Added = Limiter.__newEvent('added')
 --// Public Functions
 
 function Limiter:SetRatelimit(rt: number)
-	self.MaxPerMinute = rt
 	if rt then self.MaxPerMinute = rt end
 end
 
